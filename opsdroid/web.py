@@ -13,7 +13,7 @@ _LOGGER = logging.getLogger(__name__)
 
 
 class Web:
-    """Create class for opsdroid Web server."""
+    """Create class for opsdroid Web Server."""
 
     def __init__(self, opsdroid):
         """Create web object."""
@@ -32,7 +32,7 @@ class Web:
 
     @property
     def get_port(self):
-        """Return port from config or the default.
+        """Return port from config or default.
 
         Args:
             self: instance method
